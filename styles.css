@@ -3,9 +3,9 @@
 	font-size:36px;
 	padding:15px;
 	margin:15px;
-	border: 1px solid black;
+	border: 1px solid #57BC90;
 	border-radius: 10px;
-	background:black;
+	background:#57BC90;
 	min-width:200px;
 	min-height:40px;
 	text-align:center;
@@ -30,9 +30,35 @@
 	display:block;
 }
 body {font-family:Arial;
-	background:gray;}
-header h1 {text-align:center;}
+	background:#77C9D4;
+	margin:0;
+	margin-top:0;}
+header h1 {text-align:center;
+		color: #57BC90;}
 article h2 {text-align:center;}
+header {background:#015249;
+	margin-top:0;
+	padding-top:10px;
+	box-shadow: 0 0 15px 0;}
 article footer {text-align:center;}
+.contact-info {text-align:center;
+		display:block;
+		margin-left:45%;
+		margin-right:40%;
+		}
+.contact-info section{text-align:left;}
+.contact-info h2{text-align:left;}
+.index-articles{margin-left:15%;
+	  margin-right:15%;}
+footer{position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #015249;
+  color:#57BC90;
+  text-align: center;
+  }
+
 
 
